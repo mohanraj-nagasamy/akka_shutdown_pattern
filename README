@@ -1,0 +1,10 @@
+How do I make sure that all the messages being processed before restart/shutdown the play application?
+Do I have to use at-least once delivery message grantee?
+
+Controllers
+===========
+
+- CountController.scala:
+
+  Sends 10 messages to ProcessCounter and processes one by one. How do I make sure that all the messages being processing?
+
